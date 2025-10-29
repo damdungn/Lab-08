@@ -35,4 +35,16 @@ public class CustomListTest {
         assertEquals(length-1, cityList.getCities().size());
         assertFalse(cityList.getCities().contains(city2));
     }
+
+    @Test
+    void testCount() {
+        CustomList cityList = mockCityList();
+        City city1 = new City("Charlottetown", "Prince Edward Island");
+        cityList.addCity(city1);
+        assertEquals(2, cityList.countCities());
+        City city2 = new City("Yellowknife", "Northwest Territories");
+        cityList.addCity(city2);
+        assertEquals(3, cityList.countCities());
+    }
+}
 }

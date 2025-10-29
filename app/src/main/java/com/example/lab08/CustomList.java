@@ -30,7 +30,10 @@ public class CustomList {
             throw new IllegalArgumentException();
         }
     }
-    
+
+    public int countCities() {
+        return cities.size();
+    }
     // add comment
     // Will be implemented later using TDD (leave blank for now)
     // public boolean hasCity(City city) { ... }

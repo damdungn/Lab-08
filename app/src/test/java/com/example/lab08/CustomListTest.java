@@ -47,4 +47,4 @@ public class CustomListTest {
         assertEquals(3, cityList.countCities());
     }
 }
-}
+

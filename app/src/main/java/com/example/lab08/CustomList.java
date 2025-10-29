@@ -14,6 +14,9 @@ public class CustomList {
         cities.add(city);
     }
 
+    public List<City> getCities() {
+        return cities;
+    }
     
     // add comment
     // Will be implemented later using TDD (leave blank for now)

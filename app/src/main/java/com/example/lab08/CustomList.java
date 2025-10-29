@@ -17,6 +17,11 @@ public class CustomList {
     public List<City> getCities() {
         return cities;
     }
+
+    public Boolean hasCity(City city) {
+
+        return cities.contains(city);
+    }
     
     // add comment
     // Will be implemented later using TDD (leave blank for now)
